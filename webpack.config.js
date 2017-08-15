@@ -26,6 +26,7 @@ module.exports = {
     path: '/'
   },
   performance: {
+    // hints: false
     hints: "warning"
   }  
 }

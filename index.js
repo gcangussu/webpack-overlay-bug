@@ -4,7 +4,7 @@ function component() {
   var element = document.createElement('div');
   var btn = document.createElement('button');
 
-  element.innerHTML = 'Hello webpack';
+  element.innerHTML = 'Hello webpack<br>';
 
   btn.innerHTML = 'Click me and check the console!';
   btn.onclick = printMe;  // onclick event is bind to the original printMe function
